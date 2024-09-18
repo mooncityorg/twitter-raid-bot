@@ -1,0 +1,47 @@
+{
+	"name": "telegram-typescript-raid-bot",
+	"private": true,
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"start": "tsc && node --enable-source-maps dist/index.js",
+		"test": "tsc && xo && node --enable-source-maps --test"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	},
+	"dependencies": {
+		"@grammyjs/chat-members": "^1.1.0",
+		"@grammyjs/i18n": "^1.0.2",
+		"@grammyjs/menu": "^1.2.2",
+		"@grammyjs/storage-file": "^2.4.2",
+		"axios": "^1.7.7",
+		"body-parser": "^1.20.3",
+		"cors": "^2.8.5",
+		"cron": "^3.1.7",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.0",
+		"grammy": "^1.30.0",
+		"grammy-inline-menu": "^9.0.2",
+		"mongoose": "^8.6.3",
+		"needle": "^3.3.1",
+		"telegraf-middleware-console-time": "^2.1.0",
+		"telegram-format": "^3.1.0"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^6.0.0",
+		"@types/cors": "^2.8.17",
+		"@types/express": "^4.17.21",
+		"@types/node": "^22.5.5",
+		"typescript": "^5.6.2",
+		"xo": "^0.59.3"
+	},
+	"xo": {
+		"rules": {
+			"@typescript-eslint/naming-convention": "off",
+			"unicorn/prevent-abbreviations": "off"
+		}
+	}
+}

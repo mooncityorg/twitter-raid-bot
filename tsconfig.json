@@ -1,0 +1,12 @@
+{
+	"extends": "@sindresorhus/tsconfig",
+	"include": [
+		"source"
+	],
+	"compilerOptions": {
+		"declaration": false,
+		"removeComments": true,
+		"sourceMap": true,
+		"outDir": "dist"
+	}
+}

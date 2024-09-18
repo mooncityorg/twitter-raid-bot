@@ -1,0 +1,13 @@
+.*
+*.md
+**/*.test.*
+**/test.*
+dist
+Dockerfile
+node_modules
+test
+
+botfather-settings
+
+# botfiles
+sessions

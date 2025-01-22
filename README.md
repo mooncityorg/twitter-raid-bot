@@ -12,6 +12,7 @@ I learned a lot about JavaScript itself when I started diving into TypeScript.
 
 ```bash
 npm install
+yarn
 ```
 
 ## Start the bot

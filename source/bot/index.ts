@@ -62,7 +62,6 @@ bot.on("message", async (ctx) => {
 	await MessageQuery(ctx);
 });
 
-// eslint-disable-next-line unicorn/prefer-top-level-await
 bot.catch((error) => {
 	console.error("ERROR on handling update occured", error);
 });

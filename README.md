@@ -63,4 +63,4 @@ Make sure to explicitly use that volume (for example, make sure it's synced or t
 
 Do you think something is missing?
 Feel free to add it.
-Then everyone can learn that even easier than before :)
+Then everyone can learn that even easier than before
